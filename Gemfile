@@ -51,6 +51,7 @@ gem "image_processing", "~> 1.2"
 
 # Data Science
 gem "ruby_linear_regression"
+gem "chartkick"
 #gem "matplotlib"
 
 group :development, :test do

@@ -5,3 +5,7 @@ import "controllers"
 // BS5 JS
 import "popper"
 import "bootstrap"
+
+// charkick
+import "chartkick"
+import "Chart.bundle"

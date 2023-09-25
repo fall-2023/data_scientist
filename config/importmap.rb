@@ -9,3 +9,7 @@ pin_all_from "app/javascript/controllers", under: "controllers"
 # BS5 JS
 pin "popper", to: 'popper.js', preload: true
 pin "bootstrap", to: 'bootstrap.min.js', preload: true
+
+# chartkick
+pin "chartkick", to: "chartkick.js"
+pin "Chart.bundle", to: "Chart.bundle.js"

@@ -1,0 +1,29 @@
+Started GET "/" for 127.0.0.1 at 2023-09-25 13:46:21 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.4ms | Allocations: 3862)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 3965)
+Completed 500 Internal Server Error in 1453ms (ActiveRecord: 0.0ms | Allocations: 989936)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%
+<%= line_chart [
+  {name: "Workout", data: {"2021-01-01" => 3, "2021-01-02" => 4}},
+  {name: "Call parents", data: {"2021-01-01" => 5, "2021-01-02" => 3}}
+] %>:
+
+Started POST "/__better_errors/feb3882c64f83423/variables" for 127.0.0.1 at 2023-09-25 13:46:23 -0500
+Started GET "/" for 127.0.0.1 at 2023-09-25 13:47:17 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 445)
+  Rendered shared/_navbar.html.erb (Duration: 4.7ms | Allocations: 726)
+  Rendered shared/_toast.html.erb (Duration: 1.1ms | Allocations: 266)
+  Rendered layout layouts/application.html.erb (Duration: 6748.9ms | Allocations: 265076)
+Completed 200 OK in 6752ms (Views: 6750.8ms | ActiveRecord: 0.0ms | Allocations: 266193)
+
+
