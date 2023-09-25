@@ -342,6 +342,7 @@ GEM
     ruby-vips (2.1.4)
       ffi (~> 1.12)
     ruby2_keywords (0.0.5)
+    ruby_linear_regression (0.1.5)
     rubyzip (2.3.2)
     rufo (0.16.2)
     sassc (2.4.0)
@@ -465,6 +466,7 @@ DEPENDENCIES
   redis (~> 4.0)
   rspec-html-matchers
   rspec-rails (~> 6.0.0)
+  ruby_linear_regression
   rufo
   sassc-rails
   selenium-webdriver

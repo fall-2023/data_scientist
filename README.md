@@ -1,3 +1,8 @@
+
+[linear regression](https://github.com/daugaard/linear-regression)
+[chartkick](https://github.com/ankane/chartkick)
+[rubyplot](https://github.com/SciRuby/rubyplot)
+
 # project-9.1
 [Issue #91](https://github.com/DPI-PTTL/tasks/issues/91)
 [spec](https://dpi.instructure.com/courses/186/assignments/1708?module_item_id=3784)
