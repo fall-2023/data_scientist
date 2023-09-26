@@ -1,7 +1,13 @@
+## Gems
+- [linear regression](https://github.com/daugaard/linear-regression)
+- [matrix](https://github.com/ruby/matrix)
+- [csv](https://github.com/ruby/csv)
+- [chartkick](https://github.com/ankane/chartkick)
+- not used [rubyplot](https://github.com/SciRuby/rubyplot)
 
-[linear regression](https://github.com/daugaard/linear-regression)
-[chartkick](https://github.com/ankane/chartkick)
-[rubyplot](https://github.com/SciRuby/rubyplot)
+## Features
+- [w3 python](https://www.w3schools.com/python/python_ml_linear_regression.asp)
+- [w3 regressions](https://www.w3schools.com/ai/ai_regressions.asp)
 
 # project-9.1
 [Issue #91](https://github.com/DPI-PTTL/tasks/issues/91)

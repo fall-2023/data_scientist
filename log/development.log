@@ -27,3 +27,68 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 6752ms (Views: 6750.8ms | ActiveRecord: 0.0ms | Allocations: 266193)
 
 
+Started GET "/" for 127.0.0.1 at 2023-09-26 12:18:01 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 3028)
+
+
+
+Errno::ENOENT - No such file or directory @ rb_sysopen - data.csv:
+  app/controllers/home_controller.rb:3:in `index'
+
+Started POST "/__better_errors/7ce64c62f2e7efd4/variables" for 127.0.0.1 at 2023-09-26 12:18:01 -0500
+Started GET "/" for 127.0.0.1 at 2023-09-26 12:18:19 -0500
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 1742)
+
+
+
+Errno::ENOENT - No such file or directory @ rb_sysopen - /lib/data.csv:
+  app/controllers/home_controller.rb:3:in `index'
+
+Started POST "/__better_errors/a21b6f4b3a5e5d7d/variables" for 127.0.0.1 at 2023-09-26 12:18:19 -0500
+Started GET "/" for 127.0.0.1 at 2023-09-26 12:18:26 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 626)
+  Rendered shared/_navbar.html.erb (Duration: 4.2ms | Allocations: 724)
+  Rendered shared/_toast.html.erb (Duration: 1.1ms | Allocations: 268)
+  Rendered layout layouts/application.html.erb (Duration: 209.6ms | Allocations: 82152)
+Completed 200 OK in 576ms (Views: 214.8ms | ActiveRecord: 0.0ms | Allocations: 369289)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-26 12:18:29 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 183)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 183)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 6754)
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 9847)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-26 12:19:40 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 192)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 231)
+  Rendered shared/_toast.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered layout layouts/application.html.erb (Duration: 22.8ms | Allocations: 28795)
+Completed 200 OK in 46ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 52664)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-26 12:20:56 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 192)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 231)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 21)
+  Rendered layout layouts/application.html.erb (Duration: 28.1ms | Allocations: 28824)
+Completed 200 OK in 38ms (Views: 29.0ms | ActiveRecord: 0.0ms | Allocations: 40754)
+
+

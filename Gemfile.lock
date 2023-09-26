@@ -112,6 +112,7 @@ GEM
     crack (0.4.5)
       rexml
     crass (1.0.6)
+    csv (3.2.7)
     date (3.3.3)
     debug (1.8.0)
       irb (>= 1.5.0)
@@ -447,6 +448,7 @@ DEPENDENCIES
   bootstrap
   capybara
   chartkick
+  csv
   debug
   devise
   dotenv-rails
@@ -459,6 +461,7 @@ DEPENDENCIES
   image_processing (~> 1.2)
   importmap-rails
   jbuilder
+  matrix
   pg (~> 1.1)
   pry-rails
   puma (~> 5.0)

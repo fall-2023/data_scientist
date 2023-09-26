@@ -51,8 +51,9 @@ gem "image_processing", "~> 1.2"
 
 # Data Science
 gem "ruby_linear_regression"
+gem "matrix"
+gem "csv"
 gem "chartkick"
-#gem "matplotlib"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
