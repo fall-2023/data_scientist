@@ -92,3 +92,61 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 38ms (Views: 29.0ms | ActiveRecord: 0.0ms | Allocations: 40754)
 
 
+Started GET "/" for 127.0.0.1 at 2023-09-26 12:25:56 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 192)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 231)
+  Rendered shared/_toast.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered layout layouts/application.html.erb (Duration: 22.2ms | Allocations: 28787)
+Completed 200 OK in 27ms (Views: 23.0ms | ActiveRecord: 0.0ms | Allocations: 35812)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-26 12:27:28 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 192)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 231)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 21)
+  Rendered layout layouts/application.html.erb (Duration: 22.5ms | Allocations: 28817)
+Completed 200 OK in 28ms (Views: 23.3ms | ActiveRecord: 0.0ms | Allocations: 37712)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-26 12:33:08 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 138)
+  Rendered shared/_navbar.html.erb (Duration: 1.7ms | Allocations: 548)
+  Rendered shared/_toast.html.erb (Duration: 0.8ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 32.6ms | Allocations: 29683)
+Completed 200 OK in 43ms (Views: 35.0ms | ActiveRecord: 0.0ms | Allocations: 39085)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-26 12:54:07 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 63.6ms | Allocations: 25842)
+  Rendered layout layouts/application.html.erb (Duration: 63.8ms | Allocations: 25930)
+Completed 500 Internal Server Error in 72ms (ActiveRecord: 0.0ms | Allocations: 34503)
+
+
+
+ArgumentError - wrong number of arguments (given 2, expected 1):
+  app/views/home/index.html.erb:4
+
+Started POST "/__better_errors/446bbf88b240121a/variables" for 127.0.0.1 at 2023-09-26 12:54:07 -0500
+Started GET "/" for 127.0.0.1 at 2023-09-26 12:58:43 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1221)
+  Rendered shared/_navbar.html.erb (Duration: 2.1ms | Allocations: 545)
+  Rendered shared/_toast.html.erb (Duration: 1.4ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 59.4ms | Allocations: 30713)
+Completed 200 OK in 72ms (Views: 61.7ms | ActiveRecord: 0.0ms | Allocations: 40117)
+
+

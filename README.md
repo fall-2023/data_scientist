@@ -3,6 +3,7 @@
 - [matrix](https://github.com/ruby/matrix)
 - [csv](https://github.com/ruby/csv)
 - [chartkick](https://github.com/ankane/chartkick)
+- [chartkick.com](https://chartkick.com/)
 - not used [rubyplot](https://github.com/SciRuby/rubyplot)
 
 ## Features
