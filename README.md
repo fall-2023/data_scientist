@@ -1,7 +1,7 @@
 
 ## Service Object: RegressionModel
-
-[ref](https://www.honeybadger.io/blog/refactor-ruby-rails-service-object/)
+[ref @toptal](https://www.toptal.com/ruby-on-rails/rails-service-objects-tutorial)
+[ref @honeybadger](https://www.honeybadger.io/blog/refactor-ruby-rails-service-object/)
 
 
 ## Gems & knowledge
