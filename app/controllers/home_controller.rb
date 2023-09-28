@@ -8,8 +8,8 @@ class HomeController < ApplicationController
         #pp row
     }
 
-    pp @x_data
-    pp @y_data
+    #pp @x_data
+    #pp @y_data
 
     # Linear regression ###################################
     linear_regression = RubyLinearRegression.new
