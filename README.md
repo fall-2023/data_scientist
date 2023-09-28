@@ -1,3 +1,9 @@
+
+## Service Object: RegressionModel
+
+[ref](https://www.honeybadger.io/blog/refactor-ruby-rails-service-object/)
+
+
 ## Gems & knowledge
 - [linear regression](https://github.com/daugaard/linear-regression)
 - [great example](https://github.com/daugaard/example-linear-regression)

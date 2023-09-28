@@ -843,3 +843,15 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 529ms (Views: 311.4ms | ActiveRecord: 0.0ms | Allocations: 373409)
 
 
+Started GET "/" for 127.0.0.1 at 2023-09-28 12:05:07 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1836)
+  Rendered shared/_navbar.html.erb (Duration: 4.4ms | Allocations: 726)
+  Rendered shared/_toast.html.erb (Duration: 1.1ms | Allocations: 268)
+  Rendered layout layouts/application.html.erb (Duration: 336.8ms | Allocations: 83171)
+Completed 200 OK in 589ms (Views: 340.5ms | ActiveRecord: 0.0ms | Allocations: 370145)
+
+
