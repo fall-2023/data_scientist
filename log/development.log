@@ -672,3 +672,128 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 24ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 10444)
 
 
+Started GET "/" for 127.0.0.1 at 2023-09-27 19:36:19 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 337)
+  Rendered shared/_navbar.html.erb (Duration: 4.0ms | Allocations: 519)
+  Rendered shared/_toast.html.erb (Duration: 1.4ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 30.6ms | Allocations: 7826)
+Completed 200 OK in 50ms (Views: 38.4ms | ActiveRecord: 0.0ms | Allocations: 10439)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-27 19:37:08 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 164)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 231)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 21)
+  Rendered layout layouts/application.html.erb (Duration: 50.7ms | Allocations: 28770)
+Completed 200 OK in 59ms (Views: 51.9ms | ActiveRecord: 0.0ms | Allocations: 31586)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-27 19:38:50 -0500
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 3163)
+
+
+
+NoMethodError - undefined method `number_to_currency' for #<HomeController:0x000000000af668>:
+  app/controllers/home_controller.rb:27:in `index'
+
+Started POST "/__better_errors/512e766551853575/variables" for 127.0.0.1 at 2023-09-27 19:38:50 -0500
+Started GET "/" for 127.0.0.1 at 2023-09-27 19:40:46 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 2843)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 2932)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms | Allocations: 6349)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <div style="padding-left: 50px;">
+<h1>Multiple Regression</h1>
+Multiple regression is like linear regression, but with more than one independent value, meaning that we try to predict a value based on two or more variables.
+<H2>Data Set</H2>
+<pre>
+LAND SQUARE FEET,GROSS SQUARE FEET,SALE PRICE
+13390,5994,1495000
+6180,4808,975000
+13406,4180,1199000
+8000,4011,865000
+</pre>
+<br>
+Trained model with the following cost fit <%= @compute_cost %><br>
+<%= @summary_lr %>
+<%= @number_to_currency(predicted_price) %>
+<%#= scatter_chart City.pluck(:size, :population), xtitle: "Size", ytitle: "Population" %>
+<%= scatter_chart @x_data , legend: "top", xtitle:"$ Cost", ytitle:"Square Feet" %>
+</div>:
+
+Started POST "/__better_errors/f96ed20819b61f23/variables" for 127.0.0.1 at 2023-09-27 19:40:46 -0500
+Started GET "/" for 127.0.0.1 at 2023-09-27 19:40:52 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 2443)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 2531)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 4326)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <div style="padding-left: 50px;">
+<h1>Multiple Regression</h1>
+Multiple regression is like linear regression, but with more than one independent value, meaning that we try to predict a value based on two or more variables.
+<H2>Data Set</H2>
+<pre>
+LAND SQUARE FEET,GROSS SQUARE FEET,SALE PRICE
+13390,5994,1495000
+6180,4808,975000
+13406,4180,1199000
+8000,4011,865000
+</pre>
+<br>
+Trained model with the following cost fit <%= @compute_cost %><br>
+<%= @summary_lr %>
+<%= @number_to_currency(predicted_price) %>
+<%#= scatter_chart City.pluck(:size, :population), xtitle: "Size", ytitle: "Population" %>
+<%= scatter_chart @x_data , legend: "top", xtitle:"$ Cost", ytitle:"Square Feet" %>
+</div>:
+
+Started POST "/__better_errors/5d7f68a71e6ab3d8/variables" for 127.0.0.1 at 2023-09-27 19:40:52 -0500
+Started GET "/" for 127.0.0.1 at 2023-09-27 19:41:21 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 45.0ms | Allocations: 27841)
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 545)
+  Rendered shared/_toast.html.erb (Duration: 1.0ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 87.8ms | Allocations: 57339)
+Completed 200 OK in 93ms (Views: 90.6ms | ActiveRecord: 0.0ms | Allocations: 59969)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-27 19:42:45 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 463)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 522)
+  Rendered shared/_toast.html.erb (Duration: 0.5ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 8086)
+Completed 200 OK in 25ms (Views: 21.9ms | ActiveRecord: 0.0ms | Allocations: 10706)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-27 19:43:05 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 457)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 519)
+  Rendered shared/_toast.html.erb (Duration: 0.4ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 8049)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 10670)
+
+

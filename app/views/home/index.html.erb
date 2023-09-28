@@ -1,4 +1,5 @@
-<div style="color:gray">
+<div style="padding-left: 50px;">
+
 <h1>Multiple Regression</h1>
 Multiple regression is like linear regression, but with more than one independent value, meaning that we try to predict a value based on two or more variables.
 <H2>Data Set</H2>
@@ -9,9 +10,11 @@ LAND SQUARE FEET,GROSS SQUARE FEET,SALE PRICE
 13406,4180,1199000
 8000,4011,865000
 </pre>
-<br>
+<H2>Result & Training Data Chart</H2>
 Trained model with the following cost fit <%= @compute_cost %><br>
 <%= @summary_lr %>
+<%= number_to_currency(@predicted_price) %>
+
 <%#= scatter_chart City.pluck(:size, :population), xtitle: "Size", ytitle: "Population" %>
-<%= scatter_chart @x_data , legend: "top", xtitle:"$ Cost", ytitle:"Square Feet" %>
+<%= scatter_chart @x_data , legend: false, xtitle:"$ Cost", ytitle:"Square Feet" %>
 </div>

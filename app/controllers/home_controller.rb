@@ -23,8 +23,8 @@ class HomeController < ApplicationController
     prediction_data = [2000, 1500]
     p_x = prediction_data[0]
     p_y = prediction_data[1]
-    predicted_price = linear_regression.predict(prediction_data)
-    @summary_lr = "Predicted price using normal equation for a #{p_x} sq feet house on a #{p_y} sq feet property: $#{predicted_price.round(2)}"
+    @predicted_price = linear_regression.predict(prediction_data)
+    @summary_lr = "Predicted price using normal equation for a #{p_x} sq feet house on a #{p_y} sq feet property:"
     puts @summary_lr
     # Gradient descent #########################################
     if false 
