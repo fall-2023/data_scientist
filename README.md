@@ -1,5 +1,7 @@
-## Gems
+## Gems & knowledge
 - [linear regression](https://github.com/daugaard/linear-regression)
+- [great example](https://github.com/daugaard/example-linear-regression)
+- [blog](https://www.practicalai.io/implementing-linear-regression-using-ruby/)
 - [matrix](https://github.com/ruby/matrix)
 - [csv](https://github.com/ruby/csv)
 - [chartkick](https://github.com/ankane/chartkick)
