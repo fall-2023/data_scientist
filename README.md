@@ -38,29 +38,56 @@ gem "groupdate"
 - `dataw3.csv` from https://www.w3schools.com/ai/tryit.asp?filename=tryai_plotly_regression3
   - `slope:0.07909090909090909`
   - `intercept:2.454545454545454`
-## combining
-```
-<%= line_chart [
-        {
-            name: "Amount", type: "column", data: @cause.donations.map {
-                |t| [t.user.name, t.amount] 
-            }
-        },
-        {
-            name: "Test", type: "line", data: @cause.donations.map {
-                |t| [t.user.name, t.amount]
-            }
-        }
-    ],
-    prefix: "$",
-    adapter: "highcharts"
-%>
-```
 
-## Features
-- [w3 python](https://www.w3schools.com/python/python_ml_linear_regression.asp)
+## Plotly
+https://plotly.com/javascript/
+
+# Linear Regression
+- [w3](https://www.w3schools.com/python/python_ml_linear_regression.asp)
 - [w3 regressions](https://www.w3schools.com/ai/ai_regressions.asp)
 
+# Multiple Regression
+- [w3](https://www.w3schools.com/python/python_ml_multiple_regression.asp)
+- [rosetta code](https://www.rosettacode.org/wiki/Multiple_regression#Ruby)
+# Polynomial regression
+- [w3 poly](https://www.w3schools.com/python/python_ml_polynomial_regression.asp)
+## Rosetta Code
+https://www.rosettacode.org/wiki/Polynomial_regression#Ruby
+```
+require 'matrix'
+
+def regress x, y, degree
+  x_data = x.map { |xi| (0..degree).map { |pow| (xi**pow).to_r } }
+
+  mx = Matrix[*x_data]
+  my = Matrix.column_vector(y)
+
+  ((mx.t * mx).inv * mx.t * my).transpose.to_a[0].map(&:to_f)
+end
+```
+Testing:
+```
+p regress([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+          [1, 6, 17, 34, 57, 86, 121, 162, 209, 262, 321],
+          2)
+```
+Output:
+```
+[1.0, 2.0, 3.0]
+```
+
+[endenis](https://gist.github.com/endenis/24f569879957be0b3b4f)
+```
+require 'matrix'
+
+def polynomial_regression x, y, degree
+  rows = x.map do |i|
+    (0..degree).map { |power| (i ** power).to_f }
+  end
+  mx, my = Matrix.rows(rows), Matrix.columns([y])
+  ((mx.transpose * mx).inv * mx.transpose * my).transpose.row(0).to_a.reverse
+end
+```
 # project-9.1
 [Issue #91](https://github.com/DPI-PTTL/tasks/issues/91)
 [spec](https://dpi.instructure.com/courses/186/assignments/1708?module_item_id=3784)

@@ -4,13 +4,17 @@
   One independent value, meaning that we try to predict a value based on one variable. 
   Linear functions are of the form y = mx+b, where m is the slope and b is the y-axis intercept.
   <br>
-  Slope: <%= @slope %><br>
-  y-Intercept:  <%= @intercept %>
-
+  <h3>Regression Table</h3>
+  <ul>
+    <li>Model: OLS (Ordinary Least Square)</li>
+    <li>Slope: <%= @slope.round(4) %></li>
+    <li>y-Intercept:  <%= @intercept.round(4) %></li>
+  </ul>
   <%= line_chart [
     {name: "Sample Data", data: @data, curve: false },
     {name: "Linear Model", data: @model, points: false }
-  ] , xtitle:"Square Meters", ytitle:"Price in Millions" %>
+  ] , xtitle:"Square Meters", ytitle:"Price in Millions",
+  width: "400px" %>
 
 </div>
 

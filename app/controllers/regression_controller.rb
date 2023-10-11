@@ -113,4 +113,6 @@ class RegressionController < ApplicationController
       #@summary_gd = "Predicted price using gradient descent for a 1500 sq feet house on a 2000 sq feet property: $#{predicted_price.round(2)}"
     
   end
+  def polynomial_regression
+  end
 end
