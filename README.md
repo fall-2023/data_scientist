@@ -1,7 +1,19 @@
+# Pain Point
+Real-time, web-based data science and visualization inside of any web application.
+
+Currently, we launch a browser-based instance of Jupyter Lab, perform some calculations, and plot inside of the Jupyter environment.  Visualization is limited to exporting to a jpeg or pdf file.  Then to display on a web site, that file is copied over. 
+
+Worse, is using an API to transfer data to a d/s service and load its results back into the presentation stack.
+
+Even worse, is requiring users to log into an external d/s platform.
+
+## Solution: a vitamin
+Why not keep the data science closer to the reporting app, and use a popular web framework to perform data science and visualization.
+
 
 ## Service Object: RegressionModel
-[ref @toptal](https://www.toptal.com/ruby-on-rails/rails-service-objects-tutorial)
-[ref @honeybadger](https://www.honeybadger.io/blog/refactor-ruby-rails-service-object/)
+- [ref @toptal](https://www.toptal.com/ruby-on-rails/rails-service-objects-tutorial)
+- [ref @honeybadger](https://www.honeybadger.io/blog/refactor-ruby-rails-service-object/)
 
 
 ## Gems & knowledge
@@ -13,6 +25,33 @@
 - [chartkick](https://github.com/ankane/chartkick)
 - [chartkick.com](https://chartkick.com/)
 - not used [rubyplot](https://github.com/SciRuby/rubyplot)
+```
+gem "chartkick"
+gem "groupdate"
+```
+- [wild example](https://github.com/gorails-screencasts/gorails-episode-194/blob/master/app/controllers/charts_controller.rb)
+- [arkane](https://github.com/ankane/chartkick)
+- [chartkick.com](https://chartkick.com/)
+- [groupdate gem](https://github.com/ankane/groupdate)
+
+## combining
+```
+<%= line_chart [
+        {
+            name: "Amount", type: "column", data: @cause.donations.map {
+                |t| [t.user.name, t.amount] 
+            }
+        },
+        {
+            name: "Test", type: "line", data: @cause.donations.map {
+                |t| [t.user.name, t.amount]
+            }
+        }
+    ],
+    prefix: "$",
+    adapter: "highcharts"
+%>
+```
 
 ## Features
 - [w3 python](https://www.w3schools.com/python/python_ml_linear_regression.asp)

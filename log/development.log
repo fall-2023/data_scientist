@@ -855,3 +855,56 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 589ms (Views: 340.5ms | ActiveRecord: 0.0ms | Allocations: 370145)
 
 
+Started GET "/" for 127.0.0.1 at 2023-10-11 11:07:57 -0500
+
+ActiveRecord::ConnectionNotEstablished - connection to server on socket "/tmp/.s.PGSQL.5432" failed: No such file or directory
+	Is the server running locally and accepting connections on that socket?:
+
+Started POST "/__better_errors/4f1486d425eb2e6f/variables" for 127.0.0.1 at 2023-10-11 11:07:57 -0500
+Started GET "/" for 127.0.0.1 at 2023-10-11 11:08:07 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 1819)
+  Rendered shared/_navbar.html.erb (Duration: 4.5ms | Allocations: 721)
+  Rendered shared/_toast.html.erb (Duration: 1.1ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 235.5ms | Allocations: 91469)
+Completed 200 OK in 568ms (Views: 240.0ms | ActiveRecord: 0.0ms | Allocations: 378169)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-11 11:09:57 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 257)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 183)
+  Rendered shared/_toast.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 6858)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 8420)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-11 11:10:33 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1842)
+  Rendered shared/_navbar.html.erb (Duration: 4.4ms | Allocations: 726)
+  Rendered shared/_toast.html.erb (Duration: 1.1ms | Allocations: 268)
+  Rendered layout layouts/application.html.erb (Duration: 182.9ms | Allocations: 83194)
+Completed 200 OK in 489ms (Views: 187.1ms | ActiveRecord: 0.0ms | Allocations: 370172)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-11 11:11:04 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 1842)
+  Rendered shared/_navbar.html.erb (Duration: 4.8ms | Allocations: 726)
+  Rendered shared/_toast.html.erb (Duration: 0.9ms | Allocations: 268)
+  Rendered layout layouts/application.html.erb (Duration: 181.5ms | Allocations: 83453)
+Completed 200 OK in 483ms (Views: 185.4ms | ActiveRecord: 0.0ms | Allocations: 370507)
+
+
