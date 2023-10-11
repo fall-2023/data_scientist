@@ -75,7 +75,7 @@ Output:
 ```
 [1.0, 2.0, 3.0]
 ```
-
+## En Denis
 [endenis](https://gist.github.com/endenis/24f569879957be0b3b4f)
 ```
 require 'matrix'

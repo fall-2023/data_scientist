@@ -2328,3 +2328,14 @@ Processing by RegressionController#multiple_regression as HTML
 Completed 200 OK in 49ms (Views: 46.6ms | ActiveRecord: 0.0ms | Allocations: 35422)
 
 
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 16:18:05 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 2.8ms | Allocations: 967)
+  Rendered shared/_navbar.html.erb (Duration: 2.5ms | Allocations: 339)
+  Rendered shared/_toast.html.erb (Duration: 0.2ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 43.1ms | Allocations: 7722)
+Completed 200 OK in 73ms (Views: 45.9ms | ActiveRecord: 0.0ms | Allocations: 9328)
+
+
