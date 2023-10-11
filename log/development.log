@@ -1117,3 +1117,286 @@ Processing by RegressionController#multiple_regression as HTML
 Completed 200 OK in 13ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 8678)
 
 
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:06:59 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 1.5ms | Allocations: 300)
+  Rendered shared/_navbar.html.erb (Duration: 4.6ms | Allocations: 737)
+  Rendered shared/_toast.html.erb (Duration: 1.1ms | Allocations: 268)
+  Rendered layout layouts/application.html.erb (Duration: 363.5ms | Allocations: 81636)
+Completed 200 OK in 658ms (Views: 367.9ms | ActiveRecord: 0.0ms | Allocations: 367067)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:08:22 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 1.0ms | Allocations: 107)
+  Rendered shared/_navbar.html.erb (Duration: 28.7ms | Allocations: 28873)
+  Rendered layout layouts/application.html.erb (Duration: 40.2ms | Allocations: 35705)
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.0ms | Allocations: 36781)
+
+
+
+NameError - undefined local variable or method `regression_multiple_regression_path' for #<ActionView::Base:0x0000000000f988>:
+  app/views/shared/_navbar.html.erb:20
+  app/views/layouts/application.html.erb:15
+
+Started POST "/__better_errors/15dce63dbb295d34/variables" for 127.0.0.1 at 2023-10-11 13:08:22 -0500
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:08:35 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.7ms | Allocations: 107)
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 2861)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 9687)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 10737)
+
+
+
+NameError - undefined local variable or method `multiple_regression_path' for #<ActionView::Base:0x00000000011d00>:
+  app/views/shared/_navbar.html.erb:20
+  app/views/layouts/application.html.erb:15
+
+Started POST "/__better_errors/4eb31a3c1d6e4b21/variables" for 127.0.0.1 at 2023-10-11 13:08:35 -0500
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:08:59 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.4ms | Allocations: 107)
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 1348)
+  Rendered shared/_toast.html.erb (Duration: 1.3ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 8524)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 9597)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:09:33 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.9ms | Allocations: 110)
+  Rendered shared/_navbar.html.erb (Duration: 1.8ms | Allocations: 2901)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 9733)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms | Allocations: 10791)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <div class="container-flouid">
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <h3>👁️‍🗨️</h3>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <% if !user_signed_in? or user_signed_in? %>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+<a class="nav-link active" aria-current="page" href="/regression/linear">Linear</a>
+            </li>
+            <li class="nav-item"><%= button_to "m" regression_multiple_path %>
+<a class="nav-link active" aria-current="page" href="/regression/multiple">Multiple</a>
+            </li>
+            <li class="nav-item">
+<a class="nav-link active" aria-current="page" href="/regression/gradient_descent">Gradient Descent</a>
+            </li>
+          </ul>
+        <% end %>
+        <form class="">
+          <% if user_signed_in? %>
+            <strong><%= current_user.email %></strong>
+            <%= link_to "Sign out", destroy_user_session_path, data: { "turbo-method": :delete }, class: "btn btn-outline-danger mr-2"  %>
+            <%= link_to "Profile", edit_user_registration_path, class: "btn btn-outline-primary mr-2" %>
+          <% else %>
+            <%= link_to "Sign In", new_user_session_path, class:"btn btn-outline-secondary mr-2" %>
+            <%= link_to "Sign Up", new_user_registration_path, class:"btn btn-outline-secondary" %>
+          <% end %>
+        </form>
+      </div>
+    </div>
+  </nav>
+</div>:
+  app/views/layouts/application.html.erb:15
+
+Started POST "/__better_errors/b9f214bf4ab189cb/variables" for 127.0.0.1 at 2023-10-11 13:09:33 -0500
+Started GET "/" for 127.0.0.1 at 2023-10-11 13:10:07 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 108)
+  Rendered shared/_navbar.html.erb (Duration: 1.4ms | Allocations: 2805)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 9328)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 10006)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <div class="container-flouid">
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <h3>👁️‍🗨️</h3>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <% if !user_signed_in? or user_signed_in? %>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+<a class="nav-link active" aria-current="page" href="/regression/linear">Linear</a>
+            </li>
+            <li class="nav-item"><%= button_to "m" regression_multiple_path %>
+<a class="nav-link active" aria-current="page" href="/regression/multiple">Multiple</a>
+            </li>
+            <li class="nav-item">
+<a class="nav-link active" aria-current="page" href="/regression/gradient_descent">Gradient Descent</a>
+            </li>
+          </ul>
+        <% end %>
+        <form class="">
+          <% if user_signed_in? %>
+            <strong><%= current_user.email %></strong>
+            <%= link_to "Sign out", destroy_user_session_path, data: { "turbo-method": :delete }, class: "btn btn-outline-danger mr-2"  %>
+            <%= link_to "Profile", edit_user_registration_path, class: "btn btn-outline-primary mr-2" %>
+          <% else %>
+            <%= link_to "Sign In", new_user_session_path, class:"btn btn-outline-secondary mr-2" %>
+            <%= link_to "Sign Up", new_user_registration_path, class:"btn btn-outline-secondary" %>
+          <% end %>
+        </form>
+      </div>
+    </div>
+  </nav>
+</div>:
+  app/views/layouts/application.html.erb:15
+
+Started POST "/__better_errors/b9f235723608ebf7/variables" for 127.0.0.1 at 2023-10-11 13:10:07 -0500
+Started GET "/" for 127.0.0.1 at 2023-10-11 13:11:18 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 105)
+  Rendered shared/_navbar.html.erb (Duration: 1.3ms | Allocations: 831)
+  Rendered shared/_toast.html.erb (Duration: 1.1ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 7987)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms | Allocations: 9059)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-11 13:11:40 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 105)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 586)
+  Rendered shared/_toast.html.erb (Duration: 1.1ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 7738)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 8801)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-11 13:12:17 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 105)
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 584)
+  Rendered shared/_toast.html.erb (Duration: 0.8ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 7733)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 8796)
+
+
+Started GET "/regression/multiple" for 127.0.0.1 at 2023-10-11 13:12:20 -0500
+Processing by RegressionController#multiple_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/multiple_regression.html.erb within layouts/application
+  Rendered regression/multiple_regression.html.erb within layouts/application (Duration: 32.5ms | Allocations: 26998)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 247)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 20)
+  Rendered layout layouts/application.html.erb (Duration: 40.9ms | Allocations: 33764)
+Completed 200 OK in 46ms (Views: 43.1ms | ActiveRecord: 0.0ms | Allocations: 35930)
+
+
+Started GET "/regression/multiple" for 127.0.0.1 at 2023-10-11 13:13:26 -0500
+Processing by RegressionController#multiple_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/multiple_regression.html.erb within layouts/application
+  Rendered regression/multiple_regression.html.erb within layouts/application (Duration: 1.2ms | Allocations: 467)
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 647)
+  Rendered shared/_toast.html.erb (Duration: 1.1ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 8150)
+Completed 200 OK in 20ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 10511)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:13:28 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 1.0ms | Allocations: 103)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 261)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 6771)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 7095)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:14:06 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.7ms | Allocations: 107)
+  Rendered shared/_navbar.html.erb (Duration: 2.5ms | Allocations: 3014)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 9806)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 10853)
+
+
+
+NameError - undefined local variable or method `regression_gradient_path' for #<ActionView::Base:0x00000000012610>:
+  app/views/shared/_navbar.html.erb:26
+  app/views/layouts/application.html.erb:15
+
+Started POST "/__better_errors/3f2791c4b772de9b/variables" for 127.0.0.1 at 2023-10-11 13:14:06 -0500
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:15:03 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.9ms | Allocations: 107)
+  Rendered shared/_navbar.html.erb (Duration: 1.1ms | Allocations: 706)
+  Rendered shared/_toast.html.erb (Duration: 1.2ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 7849)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 8920)
+
+
+Started GET "/regression/gradient_descent" for 127.0.0.1 at 2023-10-11 13:15:05 -0500
+Processing by RegressionController#gradient_descent as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/gradient_descent.html.erb within layouts/application
+  Rendered regression/gradient_descent.html.erb within layouts/application (Duration: 1.1ms | Allocations: 106)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 300)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 6838)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 7163)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:15:06 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 300)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 6723)
+Completed 200 OK in 12ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 6990)
+
+
+Started GET "/regression/multiple" for 127.0.0.1 at 2023-10-11 13:15:07 -0500
+Processing by RegressionController#multiple_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/multiple_regression.html.erb within layouts/application
+  Rendered regression/multiple_regression.html.erb within layouts/application (Duration: 1.9ms | Allocations: 461)
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 300)
+  Rendered shared/_toast.html.erb (Duration: 0.2ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 7187)
+Completed 200 OK in 19ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 8801)
+
+
