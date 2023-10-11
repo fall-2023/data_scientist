@@ -34,6 +34,10 @@ gem "groupdate"
 - [chartkick.com](https://chartkick.com/)
 - [groupdate gem](https://github.com/ankane/groupdate)
 
+# data
+- `dataw3.csv` from https://www.w3schools.com/ai/tryit.asp?filename=tryai_plotly_regression3
+  - `slope:0.07909090909090909`
+  - `intercept:2.454545454545454`
 ## combining
 ```
 <%= line_chart [

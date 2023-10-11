@@ -1,5 +1,5 @@
 Chartkick.options = {
   download: true,
-  width: "200px",
-  html: '<div id="%{id}" style="width: %{width};">%{loading}</div>'
+  #width: "600px",
+  #html: '<div id="%{id}" style="width: %{width};">%{loading}</div>'
 }
