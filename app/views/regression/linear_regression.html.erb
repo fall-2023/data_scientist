@@ -1,0 +1,16 @@
+<div style="padding-left: 50px;">
+
+  <h2>Linear Regression</h2>
+  One independent value, meaning that we try to predict a value based on one variable. 
+  Linear functions are of the form y = mx+b, where m is the slope and b is the y-axis intercept.
+  <br>
+  Slope: <%= @slope %><br>
+  y-Intercept:  <%= @intercept %>
+
+  <%= line_chart [
+    {name: "Sample Data", data: @data, curve: false },
+    {name: "Linear Model", data: @model, points: false }
+  ] , xtitle:"Square Meters", ytitle:"Price in Millions" %>
+
+</div>
+

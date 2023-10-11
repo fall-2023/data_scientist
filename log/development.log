@@ -855,3 +855,1285 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 589ms (Views: 340.5ms | ActiveRecord: 0.0ms | Allocations: 370145)
 
 
+Started GET "/" for 127.0.0.1 at 2023-10-11 11:07:57 -0500
+
+ActiveRecord::ConnectionNotEstablished - connection to server on socket "/tmp/.s.PGSQL.5432" failed: No such file or directory
+	Is the server running locally and accepting connections on that socket?:
+
+Started POST "/__better_errors/4f1486d425eb2e6f/variables" for 127.0.0.1 at 2023-10-11 11:07:57 -0500
+Started GET "/" for 127.0.0.1 at 2023-10-11 11:08:07 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 1819)
+  Rendered shared/_navbar.html.erb (Duration: 4.5ms | Allocations: 721)
+  Rendered shared/_toast.html.erb (Duration: 1.1ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 235.5ms | Allocations: 91469)
+Completed 200 OK in 568ms (Views: 240.0ms | ActiveRecord: 0.0ms | Allocations: 378169)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-11 11:09:57 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 257)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 183)
+  Rendered shared/_toast.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 6858)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 8420)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-11 11:10:33 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1842)
+  Rendered shared/_navbar.html.erb (Duration: 4.4ms | Allocations: 726)
+  Rendered shared/_toast.html.erb (Duration: 1.1ms | Allocations: 268)
+  Rendered layout layouts/application.html.erb (Duration: 182.9ms | Allocations: 83194)
+Completed 200 OK in 489ms (Views: 187.1ms | ActiveRecord: 0.0ms | Allocations: 370172)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-11 11:11:04 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 1842)
+  Rendered shared/_navbar.html.erb (Duration: 4.8ms | Allocations: 726)
+  Rendered shared/_toast.html.erb (Duration: 0.9ms | Allocations: 268)
+  Rendered layout layouts/application.html.erb (Duration: 181.5ms | Allocations: 83453)
+Completed 200 OK in 483ms (Views: 185.4ms | ActiveRecord: 0.0ms | Allocations: 370507)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-11 12:06:58 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 332)
+  Rendered shared/_navbar.html.erb (Duration: 5.3ms | Allocations: 545)
+  Rendered shared/_toast.html.erb (Duration: 0.9ms | Allocations: 236)
+  Rendered layout layouts/application.html.erb (Duration: 75.2ms | Allocations: 29891)
+Completed 200 OK in 89ms (Views: 82.5ms | ActiveRecord: 0.0ms | Allocations: 31830)
+
+
+Started GET "/regression/multiple" for 127.0.0.1 at 2023-10-11 12:07:00 -0500
+Processing by RegressionController#multiple as HTML
+Completed 406 Not Acceptable in 31ms (ActiveRecord: 0.0ms | Allocations: 2618)
+
+
+
+ActionController::MissingExactTemplate - RegressionController#multiple is missing a template for request formats: text/html:
+
+Started POST "/__better_errors/0307bdacac65e248/variables" for 127.0.0.1 at 2023-10-11 12:07:00 -0500
+Started GET "/regression/multiple" for 127.0.0.1 at 2023-10-11 12:07:24 -0500
+Processing by RegressionController#multiple_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/multiple_regression.html.erb within layouts/application
+  Rendered regression/multiple_regression.html.erb within layouts/application (Duration: 0.9ms | Allocations: 334)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 231)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 21)
+  Rendered layout layouts/application.html.erb (Duration: 24.5ms | Allocations: 28706)
+Completed 200 OK in 28ms (Views: 26.1ms | ActiveRecord: 0.0ms | Allocations: 30147)
+
+
+Started GET "/regression/multiple" for 127.0.0.1 at 2023-10-11 12:07:48 -0500
+Processing by RegressionController#multiple_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/multiple_regression.html.erb within layouts/application
+  Rendered regression/multiple_regression.html.erb within layouts/application (Duration: 0.5ms | Allocations: 272)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 231)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 21)
+  Rendered layout layouts/application.html.erb (Duration: 27.1ms | Allocations: 28965)
+Completed 200 OK in 34ms (Views: 28.5ms | ActiveRecord: 0.0ms | Allocations: 31518)
+
+
+Started GET "/regression/multiple" for 127.0.0.1 at 2023-10-11 12:10:18 -0500
+Processing by RegressionController#multiple_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/multiple_regression.html.erb within layouts/application
+  Rendered regression/multiple_regression.html.erb within layouts/application (Duration: 1.7ms | Allocations: 474)
+  Rendered shared/_navbar.html.erb (Duration: 1.8ms | Allocations: 548)
+  Rendered shared/_toast.html.erb (Duration: 1.0ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 39.6ms | Allocations: 30058)
+Completed 200 OK in 49ms (Views: 42.1ms | ActiveRecord: 0.0ms | Allocations: 33232)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-11 12:10:21 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 111)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 213)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 21)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 6824)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 7526)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-11 12:11:35 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 109)
+  Rendered shared/_navbar.html.erb (Duration: 26.0ms | Allocations: 28779)
+  Rendered layout layouts/application.html.erb (Duration: 37.0ms | Allocations: 35588)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.0ms | Allocations: 36641)
+
+
+
+NoMethodError - undefined method `not' for false:FalseClass:
+  app/views/shared/_navbar.html.erb:12
+  app/views/layouts/application.html.erb:15
+
+Started POST "/__better_errors/1a75e46002360093/variables" for 127.0.0.1 at 2023-10-11 12:11:35 -0500
+Started POST "/__better_errors/1a75e46002360093/eval" for 127.0.0.1 at 2023-10-11 12:11:48 -0500
+Started POST "/__better_errors/1a75e46002360093/eval" for 127.0.0.1 at 2023-10-11 12:11:53 -0500
+Started GET "/" for 127.0.0.1 at 2023-10-11 12:12:18 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 112)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 521)
+  Rendered shared/_toast.html.erb (Duration: 1.2ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 7725)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 8791)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-11 12:13:06 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 110)
+  Rendered shared/_navbar.html.erb (Duration: 1.2ms | Allocations: 521)
+  Rendered shared/_toast.html.erb (Duration: 0.5ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 43.6ms | Allocations: 7687)
+Completed 200 OK in 57ms (Views: 54.8ms | ActiveRecord: 0.0ms | Allocations: 8751)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-11 12:21:10 -0500
+
+LoadError - cannot load such file -- /Users/robertsfarzo/data_scientist/config/routes.rb:
+
+Started POST "/__better_errors/bcaac60c85a21935/variables" for 127.0.0.1 at 2023-10-11 12:21:10 -0500
+Started GET "/" for 127.0.0.1 at 2023-10-11 12:24:40 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 303)
+  Rendered shared/_navbar.html.erb (Duration: 4.7ms | Allocations: 732)
+  Rendered shared/_toast.html.erb (Duration: 1.1ms | Allocations: 268)
+  Rendered layout layouts/application.html.erb (Duration: 208.8ms | Allocations: 81485)
+Completed 200 OK in 502ms (Views: 213.1ms | ActiveRecord: 0.0ms | Allocations: 366949)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 12:24:42 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.9ms | Allocations: 110)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 213)
+  Rendered shared/_toast.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 6806)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 7520)
+
+
+Started GET "/regression/multiple" for 127.0.0.1 at 2023-10-11 12:24:44 -0500
+Processing by RegressionController#multiple_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/multiple_regression.html.erb within layouts/application
+  Rendered regression/multiple_regression.html.erb within layouts/application (Duration: 8.4ms | Allocations: 1565)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 183)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 8168)
+Completed 200 OK in 22ms (Views: 18.8ms | ActiveRecord: 0.0ms | Allocations: 10054)
+
+
+Started GET "/regression/gradient_descent" for 127.0.0.1 at 2023-10-11 12:24:46 -0500
+Processing by RegressionController#gradient_descent as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/gradient_descent.html.erb within layouts/application
+  Rendered regression/gradient_descent.html.erb within layouts/application (Duration: 0.9ms | Allocations: 103)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 183)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 26.5ms | Allocations: 6723)
+Completed 200 OK in 28ms (Views: 26.9ms | ActiveRecord: 0.0ms | Allocations: 7048)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 12:24:48 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 183)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 6608)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 6876)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 12:25:06 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.8ms | Allocations: 112)
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 521)
+  Rendered shared/_toast.html.erb (Duration: 1.2ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 17.4ms | Allocations: 7683)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms | Allocations: 8756)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-11 12:25:08 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 105)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 205)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 20)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 6779)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 7399)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 12:25:09 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 183)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 6591)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 6860)
+
+
+Started GET "/regression/multiple" for 127.0.0.1 at 2023-10-11 12:25:10 -0500
+Processing by RegressionController#multiple_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/multiple_regression.html.erb within layouts/application
+  Rendered regression/multiple_regression.html.erb within layouts/application (Duration: 1.3ms | Allocations: 461)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 183)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 7063)
+Completed 200 OK in 13ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 8678)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:06:59 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 1.5ms | Allocations: 300)
+  Rendered shared/_navbar.html.erb (Duration: 4.6ms | Allocations: 737)
+  Rendered shared/_toast.html.erb (Duration: 1.1ms | Allocations: 268)
+  Rendered layout layouts/application.html.erb (Duration: 363.5ms | Allocations: 81636)
+Completed 200 OK in 658ms (Views: 367.9ms | ActiveRecord: 0.0ms | Allocations: 367067)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:08:22 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 1.0ms | Allocations: 107)
+  Rendered shared/_navbar.html.erb (Duration: 28.7ms | Allocations: 28873)
+  Rendered layout layouts/application.html.erb (Duration: 40.2ms | Allocations: 35705)
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.0ms | Allocations: 36781)
+
+
+
+NameError - undefined local variable or method `regression_multiple_regression_path' for #<ActionView::Base:0x0000000000f988>:
+  app/views/shared/_navbar.html.erb:20
+  app/views/layouts/application.html.erb:15
+
+Started POST "/__better_errors/15dce63dbb295d34/variables" for 127.0.0.1 at 2023-10-11 13:08:22 -0500
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:08:35 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.7ms | Allocations: 107)
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 2861)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 9687)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 10737)
+
+
+
+NameError - undefined local variable or method `multiple_regression_path' for #<ActionView::Base:0x00000000011d00>:
+  app/views/shared/_navbar.html.erb:20
+  app/views/layouts/application.html.erb:15
+
+Started POST "/__better_errors/4eb31a3c1d6e4b21/variables" for 127.0.0.1 at 2023-10-11 13:08:35 -0500
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:08:59 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.4ms | Allocations: 107)
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 1348)
+  Rendered shared/_toast.html.erb (Duration: 1.3ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 8524)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 9597)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:09:33 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.9ms | Allocations: 110)
+  Rendered shared/_navbar.html.erb (Duration: 1.8ms | Allocations: 2901)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 9733)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms | Allocations: 10791)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <div class="container-flouid">
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <h3>👁️‍🗨️</h3>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <% if !user_signed_in? or user_signed_in? %>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+<a class="nav-link active" aria-current="page" href="/regression/linear">Linear</a>
+            </li>
+            <li class="nav-item"><%= button_to "m" regression_multiple_path %>
+<a class="nav-link active" aria-current="page" href="/regression/multiple">Multiple</a>
+            </li>
+            <li class="nav-item">
+<a class="nav-link active" aria-current="page" href="/regression/gradient_descent">Gradient Descent</a>
+            </li>
+          </ul>
+        <% end %>
+        <form class="">
+          <% if user_signed_in? %>
+            <strong><%= current_user.email %></strong>
+            <%= link_to "Sign out", destroy_user_session_path, data: { "turbo-method": :delete }, class: "btn btn-outline-danger mr-2"  %>
+            <%= link_to "Profile", edit_user_registration_path, class: "btn btn-outline-primary mr-2" %>
+          <% else %>
+            <%= link_to "Sign In", new_user_session_path, class:"btn btn-outline-secondary mr-2" %>
+            <%= link_to "Sign Up", new_user_registration_path, class:"btn btn-outline-secondary" %>
+          <% end %>
+        </form>
+      </div>
+    </div>
+  </nav>
+</div>:
+  app/views/layouts/application.html.erb:15
+
+Started POST "/__better_errors/b9f214bf4ab189cb/variables" for 127.0.0.1 at 2023-10-11 13:09:33 -0500
+Started GET "/" for 127.0.0.1 at 2023-10-11 13:10:07 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 108)
+  Rendered shared/_navbar.html.erb (Duration: 1.4ms | Allocations: 2805)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 9328)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 10006)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <div class="container-flouid">
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <h3>👁️‍🗨️</h3>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <% if !user_signed_in? or user_signed_in? %>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+<a class="nav-link active" aria-current="page" href="/regression/linear">Linear</a>
+            </li>
+            <li class="nav-item"><%= button_to "m" regression_multiple_path %>
+<a class="nav-link active" aria-current="page" href="/regression/multiple">Multiple</a>
+            </li>
+            <li class="nav-item">
+<a class="nav-link active" aria-current="page" href="/regression/gradient_descent">Gradient Descent</a>
+            </li>
+          </ul>
+        <% end %>
+        <form class="">
+          <% if user_signed_in? %>
+            <strong><%= current_user.email %></strong>
+            <%= link_to "Sign out", destroy_user_session_path, data: { "turbo-method": :delete }, class: "btn btn-outline-danger mr-2"  %>
+            <%= link_to "Profile", edit_user_registration_path, class: "btn btn-outline-primary mr-2" %>
+          <% else %>
+            <%= link_to "Sign In", new_user_session_path, class:"btn btn-outline-secondary mr-2" %>
+            <%= link_to "Sign Up", new_user_registration_path, class:"btn btn-outline-secondary" %>
+          <% end %>
+        </form>
+      </div>
+    </div>
+  </nav>
+</div>:
+  app/views/layouts/application.html.erb:15
+
+Started POST "/__better_errors/b9f235723608ebf7/variables" for 127.0.0.1 at 2023-10-11 13:10:07 -0500
+Started GET "/" for 127.0.0.1 at 2023-10-11 13:11:18 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 105)
+  Rendered shared/_navbar.html.erb (Duration: 1.3ms | Allocations: 831)
+  Rendered shared/_toast.html.erb (Duration: 1.1ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 7987)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms | Allocations: 9059)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-11 13:11:40 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 105)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 586)
+  Rendered shared/_toast.html.erb (Duration: 1.1ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 7738)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 8801)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-11 13:12:17 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 105)
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 584)
+  Rendered shared/_toast.html.erb (Duration: 0.8ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 7733)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 8796)
+
+
+Started GET "/regression/multiple" for 127.0.0.1 at 2023-10-11 13:12:20 -0500
+Processing by RegressionController#multiple_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/multiple_regression.html.erb within layouts/application
+  Rendered regression/multiple_regression.html.erb within layouts/application (Duration: 32.5ms | Allocations: 26998)
+  Rendered shared/_navbar.html.erb (Duration: 0.3ms | Allocations: 247)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 20)
+  Rendered layout layouts/application.html.erb (Duration: 40.9ms | Allocations: 33764)
+Completed 200 OK in 46ms (Views: 43.1ms | ActiveRecord: 0.0ms | Allocations: 35930)
+
+
+Started GET "/regression/multiple" for 127.0.0.1 at 2023-10-11 13:13:26 -0500
+Processing by RegressionController#multiple_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/multiple_regression.html.erb within layouts/application
+  Rendered regression/multiple_regression.html.erb within layouts/application (Duration: 1.2ms | Allocations: 467)
+  Rendered shared/_navbar.html.erb (Duration: 1.0ms | Allocations: 647)
+  Rendered shared/_toast.html.erb (Duration: 1.1ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 8150)
+Completed 200 OK in 20ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 10511)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:13:28 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 1.0ms | Allocations: 103)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 261)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 6771)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 7095)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:14:06 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.7ms | Allocations: 107)
+  Rendered shared/_navbar.html.erb (Duration: 2.5ms | Allocations: 3014)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 9806)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 10853)
+
+
+
+NameError - undefined local variable or method `regression_gradient_path' for #<ActionView::Base:0x00000000012610>:
+  app/views/shared/_navbar.html.erb:26
+  app/views/layouts/application.html.erb:15
+
+Started POST "/__better_errors/3f2791c4b772de9b/variables" for 127.0.0.1 at 2023-10-11 13:14:06 -0500
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:15:03 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.9ms | Allocations: 107)
+  Rendered shared/_navbar.html.erb (Duration: 1.1ms | Allocations: 706)
+  Rendered shared/_toast.html.erb (Duration: 1.2ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 7849)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 8920)
+
+
+Started GET "/regression/gradient_descent" for 127.0.0.1 at 2023-10-11 13:15:05 -0500
+Processing by RegressionController#gradient_descent as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/gradient_descent.html.erb within layouts/application
+  Rendered regression/gradient_descent.html.erb within layouts/application (Duration: 1.1ms | Allocations: 106)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 300)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 6838)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 7163)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:15:06 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 300)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 6723)
+Completed 200 OK in 12ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 6990)
+
+
+Started GET "/regression/multiple" for 127.0.0.1 at 2023-10-11 13:15:07 -0500
+Processing by RegressionController#multiple_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/multiple_regression.html.erb within layouts/application
+  Rendered regression/multiple_regression.html.erb within layouts/application (Duration: 1.9ms | Allocations: 461)
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 300)
+  Rendered shared/_toast.html.erb (Duration: 0.2ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 7187)
+Completed 200 OK in 19ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 8801)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:21:37 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 1.4ms | Allocations: 473)
+  Rendered shared/_navbar.html.erb (Duration: 1.5ms | Allocations: 737)
+  Rendered shared/_toast.html.erb (Duration: 0.8ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 51.7ms | Allocations: 30226)
+Completed 200 OK in 58ms (Views: 53.6ms | ActiveRecord: 0.0ms | Allocations: 33404)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:22:24 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.8ms | Allocations: 470)
+  Rendered shared/_navbar.html.erb (Duration: 1.8ms | Allocations: 706)
+  Rendered shared/_toast.html.erb (Duration: 0.5ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 8217)
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 10578)
+
+
+Started GET "/regression/multiple" for 127.0.0.1 at 2023-10-11 13:22:26 -0500
+Processing by RegressionController#multiple_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/multiple_regression.html.erb within layouts/application
+  Rendered regression/multiple_regression.html.erb within layouts/application (Duration: 0.8ms | Allocations: 454)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 300)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 7146)
+Completed 200 OK in 14ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 8760)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:22:27 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.5ms | Allocations: 256)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 300)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 6957)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 8510)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:23:00 -0500
+
+SyntaxError - syntax error, unexpected ')', expecting ']'
+... @x_data.push( [row[0].to_f, 0) #row[1].to_f] )
+...                              ^
+/Users/robertsfarzo/data_scientist/app/controllers/regression_controller.rb:9: syntax error, unexpected '}', expecting `end' or dummy end
+    }
+    ^:
+  app/controllers/regression_controller.rb:6:in `'
+
+Started POST "/__better_errors/ff54ac79d3e7eb19/variables" for 127.0.0.1 at 2023-10-11 13:23:00 -0500
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:23:13 -0500
+
+SyntaxError - syntax error, unexpected ')', expecting ']'
+... @x_data.push( [row[0].to_f, 0)] #row[1].to_f] )
+...                              ^
+/Users/robertsfarzo/data_scientist/app/controllers/regression_controller.rb:9: syntax error, unexpected '}', expecting `end' or dummy end
+    }
+    ^:
+  app/controllers/regression_controller.rb:6:in `'
+
+Started POST "/__better_errors/4bf90f41f24728d6/variables" for 127.0.0.1 at 2023-10-11 13:23:14 -0500
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:23:22 -0500
+
+SyntaxError - syntax error, unexpected instance variable, expecting ')'
+        @y_data.push( row[2].to_f )
+        ^~~~~~~:
+  app/controllers/regression_controller.rb:7:in `'
+
+Started POST "/__better_errors/c324cf2315f710d5/variables" for 127.0.0.1 at 2023-10-11 13:23:22 -0500
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:23:30 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.5ms | Allocations: 272)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 357)
+  Rendered shared/_toast.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered layout layouts/application.html.erb (Duration: 25.0ms | Allocations: 28972)
+Completed 200 OK in 30ms (Views: 25.8ms | ActiveRecord: 0.0ms | Allocations: 31522)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:24:37 -0500
+
+SyntaxError - syntax error, unexpected ')', expecting ']'
+...x_data.push( [row[0].to_f, 0.0) #row[1].to_f] )
+...                              ^
+/Users/robertsfarzo/data_scientist/app/controllers/regression_controller.rb:9: syntax error, unexpected '}', expecting `end' or dummy end
+    }
+    ^:
+  app/controllers/regression_controller.rb:6:in `'
+
+Started POST "/__better_errors/e6203542cfc5163f/variables" for 127.0.0.1 at 2023-10-11 13:24:38 -0500
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:24:49 -0500
+
+SyntaxError - syntax error, unexpected instance variable, expecting ')'
+        @y_data.push( row[2].to_f )
+        ^~~~~~~:
+  app/controllers/regression_controller.rb:7:in `'
+
+Started POST "/__better_errors/bff5f69a1fac19eb/variables" for 127.0.0.1 at 2023-10-11 13:24:49 -0500
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:25:19 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 1.4ms | Allocations: 240)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 357)
+  Rendered shared/_toast.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered layout layouts/application.html.erb (Duration: 38.3ms | Allocations: 28940)
+Completed 200 OK in 44ms (Views: 39.4ms | ActiveRecord: 0.0ms | Allocations: 31715)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:27:50 -0500
+Processing by RegressionController#linear_regression as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 2896)
+
+
+
+TypeError - nil can't be coerced into Integer:
+  app/controllers/regression_controller.rb:26:in `linear_regression'
+
+Started POST "/__better_errors/f360cb9533e4de11/variables" for 127.0.0.1 at 2023-10-11 13:27:51 -0500
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:35:16 -0500
+
+SyntaxError - syntax error, unexpected local variable or method, expecting ']'
+        ySum += [row[2].to_f
+        ^~~~
+/Users/robertsfarzo/data_scientist/app/controllers/regression_controller.rb:16: syntax error, unexpected '}', expecting `end' or dummy end
+    }
+    ^:
+  app/controllers/regression_controller.rb:13:in `'
+
+Started POST "/__better_errors/5319019071b94c29/variables" for 127.0.0.1 at 2023-10-11 13:35:17 -0500
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:35:31 -0500
+Processing by RegressionController#linear_regression as HTML
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2925)
+
+
+
+TypeError - nil can't be coerced into Integer:
+  app/controllers/regression_controller.rb:35:in `linear_regression'
+
+Started POST "/__better_errors/793f4587a8809ae7/variables" for 127.0.0.1 at 2023-10-11 13:35:31 -0500
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:36:37 -0500
+Processing by RegressionController#linear_regression as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2926)
+
+
+
+TypeError - nil can't be coerced into Integer:
+  app/controllers/regression_controller.rb:35:in `linear_regression'
+
+Started POST "/__better_errors/fa1bb67ac5211a4e/variables" for 127.0.0.1 at 2023-10-11 13:36:37 -0500
+Started POST "/__better_errors/fa1bb67ac5211a4e/eval" for 127.0.0.1 at 2023-10-11 13:37:24 -0500
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:40:24 -0500
+Processing by RegressionController#linear_regression as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2925)
+
+
+
+TypeError - nil can't be coerced into Integer:
+  app/controllers/regression_controller.rb:37:in `linear_regression'
+
+Started POST "/__better_errors/d3a921aceb5d7976/variables" for 127.0.0.1 at 2023-10-11 13:40:24 -0500
+Started POST "/__better_errors/d3a921aceb5d7976/eval" for 127.0.0.1 at 2023-10-11 13:40:29 -0500
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:41:55 -0500
+Processing by RegressionController#linear_regression as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2771)
+
+
+
+NameError - undefined local variable or method `slope' for #<RegressionController:0x00000000052418>:
+  app/controllers/regression_controller.rb:23:in `linear_regression'
+
+Started POST "/__better_errors/55fed52e19e6a06b/variables" for 127.0.0.1 at 2023-10-11 13:41:56 -0500
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:42:36 -0500
+Processing by RegressionController#linear_regression as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2925)
+
+
+
+TypeError - nil can't be coerced into Integer:
+  app/controllers/regression_controller.rb:37:in `linear_regression'
+
+Started POST "/__better_errors/2174078a0144567c/variables" for 127.0.0.1 at 2023-10-11 13:42:36 -0500
+Started POST "/__better_errors/2174078a0144567c/eval" for 127.0.0.1 at 2023-10-11 13:42:41 -0500
+Started POST "/__better_errors/2174078a0144567c/eval" for 127.0.0.1 at 2023-10-11 13:42:45 -0500
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:49:43 -0500
+Processing by RegressionController#linear_regression as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 3248)
+
+
+
+TypeError - nil can't be coerced into Integer:
+  app/controllers/regression_controller.rb:37:in `linear_regression'
+
+Started POST "/__better_errors/95c0369ee5a56163/variables" for 127.0.0.1 at 2023-10-11 13:49:43 -0500
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:56:23 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 6.3ms | Allocations: 405)
+  Rendered shared/_navbar.html.erb (Duration: 4.9ms | Allocations: 735)
+  Rendered shared/_toast.html.erb (Duration: 2.7ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 86.3ms | Allocations: 30176)
+Completed 200 OK in 103ms (Views: 90.3ms | ActiveRecord: 0.0ms | Allocations: 33445)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 13:57:47 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.2ms | Allocations: 195)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 357)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 21)
+  Rendered layout layouts/application.html.erb (Duration: 22.8ms | Allocations: 28892)
+Completed 200 OK in 33ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 32002)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 14:19:13 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 2.8ms | Allocations: 436)
+  Rendered shared/_navbar.html.erb (Duration: 2.2ms | Allocations: 732)
+  Rendered shared/_toast.html.erb (Duration: 1.9ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 56.7ms | Allocations: 30065)
+Completed 200 OK in 67ms (Views: 59.0ms | ActiveRecord: 0.0ms | Allocations: 33790)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 14:28:43 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.9ms | Allocations: 214)
+  Rendered shared/_navbar.html.erb (Duration: 0.8ms | Allocations: 357)
+  Rendered shared/_toast.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered layout layouts/application.html.erb (Duration: 307.2ms | Allocations: 28994)
+Completed 200 OK in 320ms (Views: 308.7ms | ActiveRecord: 0.0ms | Allocations: 31985)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 14:32:28 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 2.1ms | Allocations: 745)
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 14:32:29 -0500
+  Rendered shared/_navbar.html.erb (Duration: 3.2ms | Allocations: 983)
+  Rendered shared/_toast.html.erb (Duration: 0.9ms | Allocations: 333)
+  Rendered layout layouts/application.html.erb (Duration: 373.6ms | Allocations: 83943)
+Completed 200 OK in 660ms (Views: 379.0ms | ActiveRecord: 0.0ms | Allocations: 371289)
+
+
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.2ms | Allocations: 206)
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 300)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 6904)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 8901)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 14:33:20 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 1.8ms | Allocations: 746)
+  Rendered shared/_navbar.html.erb (Duration: 4.5ms | Allocations: 914)
+  Rendered shared/_toast.html.erb (Duration: 0.9ms | Allocations: 268)
+  Rendered layout layouts/application.html.erb (Duration: 171.7ms | Allocations: 82095)
+Completed 200 OK in 466ms (Views: 175.7ms | ActiveRecord: 0.0ms | Allocations: 369491)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 14:38:29 -0500
+
+SyntaxError - syntax error, unexpected '=', expecting ')'
+        if (1=count)
+             ^:
+  app/controllers/regression_controller.rb:24:in `'
+
+Started POST "/__better_errors/b845e0c0096279eb/variables" for 127.0.0.1 at 2023-10-11 14:38:30 -0500
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 14:38:42 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 1.5ms | Allocations: 423)
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 732)
+  Rendered shared/_toast.html.erb (Duration: 1.0ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 46.0ms | Allocations: 30177)
+Completed 200 OK in 55ms (Views: 48.0ms | ActiveRecord: 0.0ms | Allocations: 33800)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 14:39:37 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.2ms | Allocations: 216)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 357)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 21)
+  Rendered layout layouts/application.html.erb (Duration: 23.8ms | Allocations: 28503)
+Completed 200 OK in 27ms (Views: 24.6ms | ActiveRecord: 0.0ms | Allocations: 31486)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 14:40:09 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.3ms | Allocations: 216)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 357)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 21)
+  Rendered layout layouts/application.html.erb (Duration: 29.2ms | Allocations: 29044)
+Completed 200 OK in 35ms (Views: 30.6ms | ActiveRecord: 0.0ms | Allocations: 32063)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 14:44:18 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.4ms | Allocations: 216)
+  Rendered shared/_navbar.html.erb (Duration: 0.9ms | Allocations: 357)
+  Rendered shared/_toast.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered layout layouts/application.html.erb (Duration: 70.2ms | Allocations: 29025)
+Completed 200 OK in 79ms (Views: 71.6ms | ActiveRecord: 0.0ms | Allocations: 32153)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 14:48:28 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.2ms | Allocations: 216)
+  Rendered shared/_navbar.html.erb (Duration: 0.5ms | Allocations: 357)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 21)
+  Rendered layout layouts/application.html.erb (Duration: 36.2ms | Allocations: 29031)
+Completed 200 OK in 49ms (Views: 37.4ms | ActiveRecord: 0.0ms | Allocations: 36229)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 14:50:14 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 6.5ms | Allocations: 1354)
+  Rendered shared/_navbar.html.erb (Duration: 2.7ms | Allocations: 706)
+  Rendered shared/_toast.html.erb (Duration: 1.1ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 32.2ms | Allocations: 9096)
+Completed 200 OK in 52ms (Views: 35.7ms | ActiveRecord: 0.0ms | Allocations: 16107)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 14:50:42 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1316)
+  Rendered shared/_navbar.html.erb (Duration: 2.4ms | Allocations: 706)
+  Rendered shared/_toast.html.erb (Duration: 1.6ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 20.7ms | Allocations: 9079)
+Completed 200 OK in 31ms (Views: 23.7ms | ActiveRecord: 0.0ms | Allocations: 16081)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 14:50:54 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1231)
+  Rendered shared/_navbar.html.erb (Duration: 1.3ms | Allocations: 706)
+  Rendered shared/_toast.html.erb (Duration: 0.7ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 8991)
+Completed 200 OK in 27ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 15993)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 14:51:32 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1315)
+  Rendered shared/_navbar.html.erb (Duration: 1.9ms | Allocations: 706)
+  Rendered shared/_toast.html.erb (Duration: 1.2ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 9048)
+Completed 200 OK in 27ms (Views: 19.3ms | ActiveRecord: 0.0ms | Allocations: 16050)
+
+
+Started GET "/regression/gradient_descent" for 127.0.0.1 at 2023-10-11 14:54:07 -0500
+Processing by RegressionController#gradient_descent as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 993)
+
+
+
+NoMethodError - undefined method `size' for nil:NilClass:
+  app/controllers/regression_controller.rb:107:in `gradient_descent'
+
+Started POST "/__better_errors/36c49baf1dd092d9/variables" for 127.0.0.1 at 2023-10-11 14:54:07 -0500
+Started GET "/regression/gradient_descent" for 127.0.0.1 at 2023-10-11 14:54:38 -0500
+Processing by RegressionController#gradient_descent as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/gradient_descent.html.erb within layouts/application
+  Rendered regression/gradient_descent.html.erb within layouts/application (Duration: 1.6ms | Allocations: 350)
+  Rendered shared/_navbar.html.erb (Duration: 2.1ms | Allocations: 735)
+  Rendered shared/_toast.html.erb (Duration: 1.2ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 70.3ms | Allocations: 30199)
+Completed 200 OK in 78ms (Views: 72.7ms | ActiveRecord: 0.0ms | Allocations: 32145)
+
+
+Started GET "/regression/gradient_descent" for 127.0.0.1 at 2023-10-11 14:57:34 -0500
+Processing by RegressionController#gradient_descent as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/gradient_descent.html.erb within layouts/application
+  Rendered regression/gradient_descent.html.erb within layouts/application (Duration: 4.0ms | Allocations: 506)
+  Rendered shared/_navbar.html.erb (Duration: 3.3ms | Allocations: 706)
+  Rendered shared/_toast.html.erb (Duration: 0.9ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 42.9ms | Allocations: 8247)
+Completed 200 OK in 52ms (Views: 48.7ms | ActiveRecord: 0.0ms | Allocations: 9320)
+
+
+Started GET "/regression/gradient_descent" for 127.0.0.1 at 2023-10-11 14:58:04 -0500
+Processing by RegressionController#gradient_descent as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/gradient_descent.html.erb within layouts/application
+  Rendered regression/gradient_descent.html.erb within layouts/application (Duration: 2.0ms | Allocations: 505)
+  Rendered shared/_navbar.html.erb (Duration: 2.5ms | Allocations: 706)
+  Rendered shared/_toast.html.erb (Duration: 0.5ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 23.6ms | Allocations: 8253)
+Completed 200 OK in 29ms (Views: 26.3ms | ActiveRecord: 0.0ms | Allocations: 9324)
+
+
+Started GET "/regression/gradient_descent" for 127.0.0.1 at 2023-10-11 14:58:38 -0500
+Processing by RegressionController#gradient_descent as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/gradient_descent.html.erb within layouts/application
+  Rendered regression/gradient_descent.html.erb within layouts/application (Duration: 35.0ms | Allocations: 28124)
+  Rendered layout layouts/application.html.erb (Duration: 35.2ms | Allocations: 28213)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.0ms | Allocations: 29272)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <div style="padding-left: 50px;">
+<h2>Gradient Descent</h2>
+<%= line_chart [
+    {[["2021-01-01" , 3], ["2021-01-02", 4] ]},
+    {[["2021-01-01" , 1], ["2021-01-02",6] ]}
+] %>
+<%= line_chart [
+  {name: "Workout", data: {"2021-01-01" => 3, "2021-01-02" => 4}},
+  {name: "Call parents", data: {"2021-01-01" => 5, "2021-01-02" => 3}}
+] %>:
+
+Started POST "/__better_errors/6add184b40aba196/variables" for 127.0.0.1 at 2023-10-11 14:58:38 -0500
+Started GET "/regression/gradient_descent" for 127.0.0.1 at 2023-10-11 14:59:15 -0500
+Processing by RegressionController#gradient_descent as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/gradient_descent.html.erb within layouts/application
+  Rendered regression/gradient_descent.html.erb within layouts/application (Duration: 0.8ms | Allocations: 528)
+  Rendered shared/_navbar.html.erb (Duration: 1.5ms | Allocations: 707)
+  Rendered shared/_toast.html.erb (Duration: 1.4ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 8406)
+Completed 200 OK in 26ms (Views: 24.2ms | ActiveRecord: 0.0ms | Allocations: 9480)
+
+
+Started GET "/regression/gradient_descent" for 127.0.0.1 at 2023-10-11 15:01:08 -0500
+Processing by RegressionController#gradient_descent as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/gradient_descent.html.erb within layouts/application
+  Rendered regression/gradient_descent.html.erb within layouts/application (Duration: 2.7ms | Allocations: 537)
+  Rendered shared/_navbar.html.erb (Duration: 2.4ms | Allocations: 706)
+  Rendered shared/_toast.html.erb (Duration: 1.0ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 38.1ms | Allocations: 8297)
+Completed 200 OK in 47ms (Views: 43.7ms | ActiveRecord: 0.0ms | Allocations: 9369)
+
+
+Started GET "/regression/gradient_descent" for 127.0.0.1 at 2023-10-11 15:02:10 -0500
+Processing by RegressionController#gradient_descent as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/gradient_descent.html.erb within layouts/application
+  Rendered regression/gradient_descent.html.erb within layouts/application (Duration: 1.5ms | Allocations: 538)
+  Rendered shared/_navbar.html.erb (Duration: 1.7ms | Allocations: 706)
+  Rendered shared/_toast.html.erb (Duration: 1.1ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 23.2ms | Allocations: 8280)
+Completed 200 OK in 28ms (Views: 26.6ms | ActiveRecord: 0.0ms | Allocations: 9351)
+
+
+Started GET "/regression/gradient_descent" for 127.0.0.1 at 2023-10-11 15:02:37 -0500
+Processing by RegressionController#gradient_descent as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/gradient_descent.html.erb within layouts/application
+  Rendered regression/gradient_descent.html.erb within layouts/application (Duration: 0.8ms | Allocations: 525)
+  Rendered shared/_navbar.html.erb (Duration: 1.4ms | Allocations: 706)
+  Rendered shared/_toast.html.erb (Duration: 0.9ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 23.1ms | Allocations: 8255)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.0ms | Allocations: 9326)
+
+
+Started GET "/regression/gradient_descent" for 127.0.0.1 at 2023-10-11 15:02:54 -0500
+Processing by RegressionController#gradient_descent as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/gradient_descent.html.erb within layouts/application
+  Rendered regression/gradient_descent.html.erb within layouts/application (Duration: 0.9ms | Allocations: 524)
+  Rendered shared/_navbar.html.erb (Duration: 1.8ms | Allocations: 706)
+  Rendered shared/_toast.html.erb (Duration: 1.0ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | Allocations: 8263)
+Completed 200 OK in 25ms (Views: 23.6ms | ActiveRecord: 0.0ms | Allocations: 9334)
+
+
+Started GET "/regression/gradient_descent" for 127.0.0.1 at 2023-10-11 15:03:13 -0500
+Processing by RegressionController#gradient_descent as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/gradient_descent.html.erb within layouts/application
+  Rendered regression/gradient_descent.html.erb within layouts/application (Duration: 2.0ms | Allocations: 538)
+  Rendered shared/_navbar.html.erb (Duration: 1.4ms | Allocations: 706)
+  Rendered shared/_toast.html.erb (Duration: 1.8ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 8298)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.0ms | Allocations: 9369)
+
+
+Started GET "/regression/gradient_descent" for 127.0.0.1 at 2023-10-11 15:03:43 -0500
+Processing by RegressionController#gradient_descent as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/gradient_descent.html.erb within layouts/application
+  Rendered regression/gradient_descent.html.erb within layouts/application (Duration: 4.1ms | Allocations: 542)
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 707)
+  Rendered shared/_toast.html.erb (Duration: 0.9ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 29.0ms | Allocations: 8438)
+Completed 200 OK in 32ms (Views: 30.7ms | ActiveRecord: 0.0ms | Allocations: 9512)
+
+
+Started GET "/regression/gradient_descent" for 127.0.0.1 at 2023-10-11 15:04:23 -0500
+Processing by RegressionController#gradient_descent as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/gradient_descent.html.erb within layouts/application
+  Rendered regression/gradient_descent.html.erb within layouts/application (Duration: 0.9ms | Allocations: 540)
+  Rendered shared/_navbar.html.erb (Duration: 1.5ms | Allocations: 706)
+  Rendered shared/_toast.html.erb (Duration: 0.8ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 22.4ms | Allocations: 8409)
+Completed 200 OK in 29ms (Views: 27.4ms | ActiveRecord: 0.0ms | Allocations: 9482)
+
+
+Started GET "/regression/gradient_descent" for 127.0.0.1 at 2023-10-11 15:07:20 -0500
+Processing by RegressionController#gradient_descent as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/gradient_descent.html.erb within layouts/application
+  Rendered regression/gradient_descent.html.erb within layouts/application (Duration: 1.3ms | Allocations: 536)
+  Rendered shared/_navbar.html.erb (Duration: 1.7ms | Allocations: 706)
+  Rendered shared/_toast.html.erb (Duration: 0.9ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 25.4ms | Allocations: 8272)
+Completed 200 OK in 31ms (Views: 29.7ms | ActiveRecord: 0.0ms | Allocations: 9343)
+
+
+Started GET "/regression/gradient_descent" for 127.0.0.1 at 2023-10-11 15:07:24 -0500
+Processing by RegressionController#gradient_descent as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/gradient_descent.html.erb within layouts/application
+  Rendered regression/gradient_descent.html.erb within layouts/application (Duration: 0.3ms | Allocations: 360)
+  Rendered shared/_navbar.html.erb (Duration: 0.4ms | Allocations: 300)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 7058)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 7326)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 15:07:27 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 6.4ms | Allocations: 1357)
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 300)
+  Rendered shared/_toast.html.erb (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 22.7ms | Allocations: 8058)
+Completed 200 OK in 56ms (Views: 41.1ms | ActiveRecord: 0.0ms | Allocations: 14322)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 15:07:57 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1365)
+  Rendered shared/_navbar.html.erb (Duration: 1.5ms | Allocations: 706)
+  Rendered shared/_toast.html.erb (Duration: 1.1ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 9116)
+Completed 200 OK in 32ms (Views: 21.5ms | ActiveRecord: 0.0ms | Allocations: 16117)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 15:08:21 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1362)
+  Rendered shared/_navbar.html.erb (Duration: 4.4ms | Allocations: 707)
+  Rendered shared/_toast.html.erb (Duration: 1.4ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 25.7ms | Allocations: 9237)
+Completed 200 OK in 41ms (Views: 29.2ms | ActiveRecord: 0.0ms | Allocations: 16248)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 15:08:31 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1151)
+  Rendered shared/_navbar.html.erb (Duration: 1.2ms | Allocations: 706)
+  Rendered shared/_toast.html.erb (Duration: 0.4ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 8925)
+Completed 200 OK in 23ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 15928)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 15:09:06 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1157)
+  Rendered shared/_navbar.html.erb (Duration: 2.0ms | Allocations: 706)
+  Rendered shared/_toast.html.erb (Duration: 1.1ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 8920)
+Completed 200 OK in 25ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 15922)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 15:09:28 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1157)
+  Rendered shared/_navbar.html.erb (Duration: 1.5ms | Allocations: 706)
+  Rendered shared/_toast.html.erb (Duration: 0.7ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 8914)
+Completed 200 OK in 33ms (Views: 21.4ms | ActiveRecord: 0.0ms | Allocations: 15922)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 15:11:33 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1164)
+  Rendered shared/_navbar.html.erb (Duration: 2.5ms | Allocations: 706)
+  Rendered shared/_toast.html.erb (Duration: 1.1ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 27.0ms | Allocations: 8921)
+Completed 200 OK in 39ms (Views: 29.0ms | ActiveRecord: 0.0ms | Allocations: 15923)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 15:12:39 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1167)
+  Rendered shared/_navbar.html.erb (Duration: 4.1ms | Allocations: 709)
+  Rendered shared/_toast.html.erb (Duration: 1.1ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 40.6ms | Allocations: 8966)
+Completed 200 OK in 52ms (Views: 42.9ms | ActiveRecord: 0.0ms | Allocations: 15968)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 15:14:04 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1120)
+  Rendered shared/_navbar.html.erb (Duration: 1.5ms | Allocations: 706)
+  Rendered shared/_toast.html.erb (Duration: 0.8ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 8966)
+Completed 200 OK in 31ms (Views: 17.7ms | ActiveRecord: 0.0ms | Allocations: 15977)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 15:14:45 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1120)
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 706)
+  Rendered shared/_toast.html.erb (Duration: 0.9ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 8868)
+Completed 200 OK in 30ms (Views: 21.0ms | ActiveRecord: 0.0ms | Allocations: 15870)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 15:16:34 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1121)
+  Rendered shared/_navbar.html.erb (Duration: 2.2ms | Allocations: 706)
+  Rendered shared/_toast.html.erb (Duration: 1.2ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 33.6ms | Allocations: 8869)
+Completed 200 OK in 58ms (Views: 43.1ms | ActiveRecord: 0.0ms | Allocations: 15871)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 15:17:09 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.4ms | Allocations: 374)
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 357)
+  Rendered shared/_toast.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered layout layouts/application.html.erb (Duration: 48.9ms | Allocations: 29186)
+Completed 200 OK in 57ms (Views: 50.0ms | ActiveRecord: 0.0ms | Allocations: 32997)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 15:20:55 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.8ms | Allocations: 955)
+  Rendered shared/_navbar.html.erb (Duration: 0.6ms | Allocations: 357)
+  Rendered shared/_toast.html.erb (Duration: 0.0ms | Allocations: 21)
+  Rendered layout layouts/application.html.erb (Duration: 37.6ms | Allocations: 29767)
+Completed 200 OK in 53ms (Views: 38.7ms | ActiveRecord: 0.0ms | Allocations: 36963)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 15:22:29 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1139)
+  Rendered shared/_navbar.html.erb (Duration: 1.6ms | Allocations: 706)
+  Rendered shared/_toast.html.erb (Duration: 0.8ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 22.9ms | Allocations: 9028)
+Completed 200 OK in 39ms (Views: 24.4ms | ActiveRecord: 0.0ms | Allocations: 16034)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 15:23:13 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1150)
+  Rendered shared/_navbar.html.erb (Duration: 1.7ms | Allocations: 706)
+  Rendered shared/_toast.html.erb (Duration: 1.5ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 8886)
+Completed 200 OK in 33ms (Views: 22.3ms | ActiveRecord: 0.0ms | Allocations: 15888)
+
+
+Started GET "/regression/linear" for 127.0.0.1 at 2023-10-11 15:24:53 -0500
+Processing by RegressionController#linear_regression as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering regression/linear_regression.html.erb within layouts/application
+  Rendered regression/linear_regression.html.erb within layouts/application (Duration: 0.7ms | Allocations: 978)
+  Rendered shared/_navbar.html.erb (Duration: 0.7ms | Allocations: 357)
+  Rendered shared/_toast.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered layout layouts/application.html.erb (Duration: 40.1ms | Allocations: 29782)
+Completed 200 OK in 46ms (Views: 41.0ms | ActiveRecord: 0.0ms | Allocations: 32385)
+
+
