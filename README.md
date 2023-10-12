@@ -10,6 +10,8 @@ Even worse, is requiring users to log into an external d/s platform.
 ## Solution: a vitamin
 Why not keep the data science closer to the reporting app, and use a popular web framework to perform data science and visualization.
 
+## Data Model
+[ideas fd](https://ideas.firstdraft.com/ideas/11743)
 
 ## Service Object: RegressionModel
 - [ref @toptal](https://www.toptal.com/ruby-on-rails/rails-service-objects-tutorial)
